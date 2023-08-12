@@ -1,0 +1,127 @@
+.skill-box {
+    margin: 1rem;
+
+}
+
+.Skill {
+    margin-left: 1rem;
+    font-size: large;
+    font-weight: 700;
+    padding-left: 7rem;
+
+    border-radius: 2rem;
+    padding: .20rem;
+    background-color: rgba(75, 181, 247, 0.222);
+}
+
+.Skill i {
+    margin-left: 1rem;
+}
+
+.skill-box {
+    margin-left: 2rem;
+
+}
+
+.progess-wrap {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 4px;
+    width: 50%;
+    border: 2px solid black;
+    margin-left: 1rem;
+    border-radius: 1rem;
+    padding: .15rem;
+   
+    box-shadow: 0 0 2px .5px rgb(0, 0, 0);
+}
+
+.progess-bar {
+    display: block;
+    height: 100%;
+    box-shadow: 0 0 2px 1px rgb(3, 179, 248);
+
+
+}
+
+.HTML {
+    width: 90%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    background: linear-gradient(to right, rgb(0, 128, 255), rgb(47, 255, 0));
+    background-size: 200%;
+    animation: HTML 3s infinite ease-in-out;
+    animation-delay: 1s;
+}
+
+.JAVASCRIPT {
+    width: 78%;
+
+    border-radius: 1rem 0rem 0rem 1rem;
+
+    background: linear-gradient(to right, rgb(0, 110, 255), rgb(47, 255, 0));
+    background-size: 200%;
+    animation: HTML 3s infinite ease-in-out;
+    animation-delay: 1.5s;
+}
+
+.REACT {
+    width: 70%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    background: linear-gradient(to right, rgb(0, 85, 255), rgb(47, 255, 0));
+    background-size: 200%;
+    animation: HTML 3s infinite ease-in-out;
+    animation-delay: 2s;
+}
+
+.REDUX {
+    width: 58%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    background: linear-gradient(to right, rgb(0, 110, 255), rgb(47, 255, 0));
+    background-size: 200%;
+    animation: HTML 3s infinite ease-in-out;
+    animation-delay: 2.5s;
+}
+
+.Hindi {
+    width: 90%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    background: linear-gradient(to right, rgb(0, 123, 255), rgb(47, 255, 0));
+    background-size: 200%;
+    animation: HTML 3s infinite ease-in-out;
+    animation-delay: 3s;
+}
+
+.English {
+    width: 70%;
+    border-radius: 1rem 0rem 0rem 1rem;
+    background: linear-gradient(to right, rgb(0, 157, 255), rgb(47, 255, 0));
+    background-size: 200%;
+    animation: HTML 3s infinite ease-in-out;
+    animation-delay: 3.5s;
+
+}
+
+
+@keyframes HTML {
+    0% {
+        background-position: 200% 0%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+.progess-wrap {
+   width: 70%;
+  }
+}
+
+
+

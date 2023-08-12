@@ -1,0 +1,26 @@
+
+.education-container{
+    margin-left: 1rem;
+}
+.education-box{
+   margin: top 0.2em;
+   margin-left: 1.5rem;
+}
+
+
+.education  {
+    
+    border-radius: 1.5rem;
+    padding: .20rem;
+    background-color: rgba(25, 166, 254, 0.37);
+
+}
+.education i{
+    padding-left: 1rem;
+  
+}
+.param{
+font-weight: 500;
+}
+
+

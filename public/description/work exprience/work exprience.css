@@ -1,0 +1,45 @@
+.workExprience-container{margin-left: 1rem;
+   
+    
+    
+}
+
+.work {
+
+    padding: .2rem;
+  
+    background-color:
+        rgba(51, 172, 247, 0.326);
+    border-radius: 1.9rem;
+    padding: .20rem;
+    font-weight: bold; 
+}
+
+
+
+.work i{
+    padding-left: 1rem;
+}
+
+.exp{
+    margin-bottom: .4rem;
+    font-weight: 600;
+}
+.work-box{
+    margin-left: 1.5rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 
+450px) {
+    
+    
+    
+.expr{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+
+
+}

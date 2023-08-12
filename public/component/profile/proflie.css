@@ -1,0 +1,396 @@
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.left-profile section {
+  display: flex;
+}
+
+.left-profile p {
+  display: flex;
+  max-width: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.user {
+  border-radius: 50%;
+object-fit: cover;
+
+ 
+  padding: .01rem;
+  width: 8rem;
+  height: 8rem;
+  box-shadow: 0px 0px 5px 3px rgb(0, 174, 255);
+
+}
+
+
+.message {
+  font-size: 1.5rem;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50%;
+  color: aliceblue;
+
+
+
+}
+
+.html {
+  color: rgb(255, 145, 0);
+  font-size: 3rem;
+
+  margin: .8rem;
+  border-radius: 50%;
+  display: inline;
+
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 50% 50%, rgba(236, 208, 158, 1) 20%, rgba(212, 184, 95, 1) 94%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 50% 50%, rgba(236, 208, 158, 1) 20%, rgba(212, 184, 95, 1) 94%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 50% 50%, rgba(236, 208, 158, 1) 20%, rgba(212, 184, 95, 1) 94%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 50% 50%, rgba(236, 208, 158, 1) 20%, rgba(212, 184, 95, 1) 94%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 50% 50%, rgba(236, 208, 158, 1) 20%, rgba(212, 184, 95, 1) 94%);
+
+  animation: html 3s infinite ease-out;
+}
+
+
+
+
+.html:hover {
+  box-shadow: 0px 0px 9px 10px rgb(255, 183, 0);
+  ;
+  cursor: pointer;
+}
+
+.css {
+  animation: html 2.5s infinite ease-in-out;
+  color: rgb(10, 70, 250);
+  font-size: 3rem;
+  margin: .8rem;
+  border-radius: 50%;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 50% 50%, rgba(72, 174, 255, 1) 20%, rgba(34, 255, 206, 1) 94%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 50% 50%, rgba(72, 174, 255, 1) 20%, rgba(34, 255, 206, 1) 94%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 50% 50%, rgba(72, 174, 255, 1) 20%, rgba(34, 255, 206, 1) 94%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 50% 50%, rgba(72, 174, 255, 1) 20%, rgba(34, 255, 206, 1) 94%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 50% 50%, rgba(72, 174, 255, 1) 20%, rgba(34, 255, 206, 1) 94%);
+
+  display: inline;
+  box-shadow: 0px 0px 4px 3px rgb(0, 47, 255);
+  
+}
+
+.css:hover {
+  box-shadow: 0px 0px 9px 10px rgb(0, 72, 255);
+  cursor: pointer;
+}
+
+
+.javascript {
+  color: rgb(248, 248, 0);
+  font-size: 3rem;
+  margin: .8rem;
+  border-radius: 50%;
+  display: inline;
+  box-shadow: 0px 0px 4px 3px rgb(255, 204, 0);
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 50% 50%, rgba(210, 188, 1, 1) 18%, rgba(255, 235, 59, 1) 76%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 50% 50%, rgba(210, 188, 1, 1) 18%, rgba(255, 235, 59, 1) 76%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 50% 50%, rgba(210, 188, 1, 1) 18%, rgba(255, 235, 59, 1) 76%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 50% 50%, rgba(210, 188, 1, 1) 18%, rgba(255, 235, 59, 1) 76%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 50% 50%, rgba(210, 188, 1, 1) 18%, rgba(255, 235, 59, 1) 76%);
+  animation: html 3s infinite ease-in-out;
+ 
+}
+
+.javascript:hover {
+  box-shadow: 0px 0px 6px 7px rgb(255, 204, 0);
+  cursor: pointer;
+}
+
+.react {
+  color: rgb(0, 238, 255);
+  font-size: 3rem;
+  margin: .8rem;
+  border-radius: 50%;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 47% 43%, rgba(63, 81, 181, 1) 0%, rgba(3, 169, 244, 1) 98%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 47% 43%, rgba(63, 81, 181, 1) 0%, rgba(3, 169, 244, 1) 98%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 47% 43%, rgba(63, 81, 181, 1) 0%, rgba(3, 169, 244, 1) 98%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 47% 43%, rgba(63, 81, 181, 1) 0%, rgba(3, 169, 244, 1) 98%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 47% 43%, rgba(63, 81, 181, 1) 0%, rgba(3, 169, 244, 1) 98%);
+
+  display: inline;
+
+  animation: html 2.5s infinite ease-in-out;
+ 
+}
+
+.react:hover {
+  box-shadow: 0px 0px 6px 7px rgb(5, 148, 250);
+  cursor: pointer;
+}
+
+.redux {
+
+  color: rgb(230, 66, 248);
+  font-size: 3rem;
+  margin: .8rem;
+  border-radius: 50%;
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(circle at 47% 43%, rgb(199, 97, 250) 0%, rgba(130, 63, 163, 1) 63%, rgba(121, 37, 162, 1) 98%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(circle at 47% 43%, rgb(193, 113, 233) 0%, rgba(130, 63, 163, 1) 63%, rgba(121, 37, 162, 1) 98%);
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(circle at 47% 43%, rgb(202, 119, 244) 0%, rgba(130, 63, 163, 1) 63%, rgba(121, 37, 162, 1) 98%);
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(circle at 47% 43%, rgb(196, 110, 239) 0%, rgba(130, 63, 163, 1) 63%, rgba(121, 37, 162, 1) 98%);
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(circle at 47% 43%, rgb(212, 126, 254) 0%, rgba(130, 63, 163, 1) 63%, rgba(121, 37, 162, 1) 98%);
+
+  display: inline;
+  box-shadow: 0px 0px 4px 3px rgb(246, 74, 249);
+  animation: html 2.5s infinite ease-in-out;
+ 
+}
+
+.redux:hover {
+  box-shadow: 0px 0px 6px 7px rgb(250, 104, 253);
+  cursor: pointer;
+}
+
+
+
+
+.social-area {
+  position: relative;
+  float: right;
+  display: flex;
+ 
+
+}
+
+.github {
+  margin: 1.5rem;
+
+  font-size: 2.2rem;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 3px rgb(255, 255, 255);
+  animation: social 2.5s infinite ease-in-out;
+ 
+}
+
+.github:hover {
+  box-shadow: 0px 0px 5px 5px rgb(255, 255, 255);
+}
+
+.instagram {
+ color: #000000;
+  margin: 1.5rem;
+  font-size: 2rem;
+
+
+  border: none;
+  border-radius: 50%;
+  /** TEXT GRADIENT */
+
+  background-image: -webkit-linear-gradient(135deg, #f39090 23%, #fa60f7 66%);
+  border: 3px solid rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 3px #f76df2;
+  animation: instagram 2.5s infinite ease-in-out
+}
+
+@keyframes instagram {
+  0% {
+    box-shadow: 0px 0px 3px 2px #f76df2;
+  }
+
+  50% {
+    box-shadow: 0px 0px 5px 6px #f76df2;
+  }
+
+  100% {
+    box-shadow: 0px 0px 3px 2px #f76df2;
+  }
+}
+
+@keyframes social {
+  0% {
+    box-shadow: 0px 0px 3px 2px;
+  }
+
+  50% {
+    box-shadow: 0px 0px 5px 6px;
+  }
+
+  100% {
+    box-shadow: 0px 0px 3px 2px;
+  }
+}
+
+
+.instagram:hover {
+  box-shadow: 0px 0px 5px 5px #f76df2;
+
+}
+
+.facebook {
+  animation: social 2.5s infinite ease-in-out;
+  margin: 1.5rem;
+
+  font-size: 2rem;
+  color: rgb(0, 85, 255);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 3px rgb(0, 68, 255);
+}
+
+.facebook:hover {
+  box-shadow: 0px 0px 5px 5px rgb(0, 68, 255);
+}
+
+.following-area {
+
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  flex-direction: column;
+  align-items: baseline;
+  width: 20rem;
+}
+
+.email {
+  border-bottom: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+
+  cursor: pointer;
+
+}
+
+.phone {
+  border-bottom: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 450px) {
+  .profile-container {
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .left-profile p {
+    max-width: 450px;
+  }
+
+  .image {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .image h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+
+
+  .user {
+    margin: 0;
+    border-radius: 50%;
+  }
+
+  .social-area {
+    justify-content: center;
+
+  }
+
+  .instagram {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
+  .following-area {
+    align-items: center;
+
+  }
+}
+
+@keyframes html {
+  0% {
+    box-shadow: 0px 0px 4px 3px;
+  }
+
+  50% {
+    box-shadow: 0px 0px 7px 8px;
+  }
+
+  100% {
+    box-shadow: 0px 0px 4px 3px;
+  }
+}

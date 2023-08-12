@@ -1,0 +1,45 @@
+.FaEthereum{
+    color: rgb(255, 225, 225);
+   
+}
+.AiFillPrinter{
+color: rgb(0, 0, 0);
+    font-size: 2rem;
+    cursor: pointer;
+}
+.FaMagento{
+    font-size: 2rem;
+ color: aliceblue;
+ 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 1rem;
+
+
+        /* ff 3.6+ */
+        background: -moz-radial-gradient(ellipse at 52% 47%, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+        /* safari 5.1+,chrome 10+ */
+        background: -webkit-radial-gradient(ellipse at 52% 47%, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+        /* opera 11.10+ */
+        background: -o-radial-gradient(ellipse at 52% 47%, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+        /* ie 10+ */
+        background: -ms-radial-gradient(ellipse at 52% 47%, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+        /* global 92%+ browsers support */
+        background: radial-gradient(ellipse at 52% 47%, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+
+    }
+
+.port{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.SiCliqz{
+    font-size:1.5rem;
+}
