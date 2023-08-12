@@ -5,21 +5,6 @@ import { TbDeviceDesktopAnalytics } from "react-icons/tb";
 
 function SkillAndLanguages() {
 
-  // const bars = document.querySelectorAll(".progess-bar");
-  // // const per = document.querySelectorAll(".data-percent")
-// console.log(per)
-// 
-  // bars.forEach(function (bar) {
-    // let percentage = bar.dataset.percent;
-    // let tool = bar.children[0];
-    // tool.innerText = percentage + "%";
-    // bar.style.width = percentage + "%";
-    // // // // console.log(percentage);1                                                                                     
-  // });  NOT WORK IN REACT 
-  //THIS CODE IS WORK NORMAL HTML,CSS AND JS.
- 
- 
-
  
 
   return (

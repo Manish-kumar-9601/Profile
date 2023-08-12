@@ -4,7 +4,7 @@ import './navbar.css'
 import { AiFillPrinter } from "react-icons/ai";
 
 
-import { FaEthereum, FaMagento } from "react-icons/fa";
+import { FaMagento } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -16,7 +16,7 @@ function Navbar() {
 
         </span>
         <span className="port">
-          <i>PORTFOLISIO</i>
+          <i>PORTFOLIO</i>
         </span>
 
         <span>

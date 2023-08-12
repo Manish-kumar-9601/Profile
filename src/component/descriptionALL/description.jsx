@@ -1,11 +1,10 @@
 import React from 'react';
-
-import './description.css';
+ 
 import {
   WorkExprience,
   Education,
   SkillAndLanguages,
-} from "../../../src/exporter";
+} from "../../exporter";
 
 
 

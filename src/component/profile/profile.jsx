@@ -11,7 +11,6 @@ import { FaReact } from "react-icons/fa";
 import {
   AiFillGithub,
   AiFillPhone,
-  AiFillInstagram,
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";

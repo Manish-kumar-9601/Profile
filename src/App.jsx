@@ -1,27 +1,20 @@
-import { useState } from "react";
+import './App.css'
 
-import "./App.css";
-
-import { Navbar, Header, Profile, Description, Footer } from "./exporter";
-
-
-
-
-
+import { Navbar, Header, Description } from './exporter'
 
 // NEW IMPORT STYLE
 
-function App() {
+function App () {
   return (
     <>
-    <Navbar/>
-      <Header>
-      
-      </Header><br />
-      <Description /><br />
-      <Footer />
+      <Navbar />
+      <Header></Header>
+      <br />
+      <Description />
+      <br />
+    
     </>
-  );
+  )
 }
 
-export default App;
+export default App
